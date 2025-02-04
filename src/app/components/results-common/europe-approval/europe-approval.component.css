@@ -1,7 +1,7 @@
 
 
 :host {
-  background-color:#dae6fe;
+  background-color:#DAE6FE;
 }
 .authorised
 {
@@ -66,6 +66,7 @@
 {
   background-color: blue;
   color: white;
+  padding: 5px;
 }
 
 a
@@ -101,4 +102,21 @@ a
   font-weight: bold;
   line-height: 16px;
   margin-right: 5px;
+}
+
+
+.image1
+{
+  height:60px ;
+  width: 120px;
+  padding-top: 10px;
+
+}
+
+.image2
+{
+  height:80px ;
+  width: 300px;
+  padding-top: 10px;
+
 }

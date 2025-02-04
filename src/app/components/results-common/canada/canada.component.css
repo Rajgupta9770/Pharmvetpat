@@ -1,7 +1,7 @@
 
 
 :host {
-    background-color: pink;
+    background-color:#FFEBEB;
   }
   
 .headerpart {
@@ -104,4 +104,25 @@ h5{
 hr {
     border: 5px blue solid !important;
     border-radius: 20px !important;
+}
+
+.image1
+{
+  height:100px ;
+  width: 150px;
+  padding: 10px;
+}
+
+.image2
+{
+  height:140px ;
+  width: 280px;
+  padding: 10px;
+}
+
+.image3
+{
+  height:80px ;
+  width: 150px;
+  padding: 10px;
 }

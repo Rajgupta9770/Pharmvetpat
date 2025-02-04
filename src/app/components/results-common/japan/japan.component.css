@@ -53,4 +53,21 @@ hr {
     border: 5px blue solid !important;
     border-radius: 20px !important;
     
+    
+}
+.image1
+{
+  height: 150px;
+  width: 140px;
+}
+.image2
+{
+  height: 70px;
+  width: 270px;
+  padding-top: 10px;
+}
+.image3
+{
+  height: 60px;
+  width: 150px;
 }
