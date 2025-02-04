@@ -24,7 +24,8 @@
 
     <!-- Main Content Section -->
     <div class="card mt-3" [ngSwitch]="currentTabData?.name">
-      {{currentTabData?.name}}
+      <pre>{{currentTabData?.name}}</pre>
+      
       <ng-container *ngSwitchCase="'productInfo'">
         <chem-product-info [data]="dataItem.productInfo"></chem-product-info>
       </ng-container>
@@ -39,6 +40,39 @@
 
       <ng-container *ngSwitchCase="'dmfSuppliers'">
         <chem-dmf-or-suplier></chem-dmf-or-suplier>
+      </ng-container>
+
+      <ng-container *ngSwitchCase="'ksmSuppliers'">
+        <chem-ksm></chem-ksm>
+      </ng-container>
+     
+
+      <ng-container *ngSwitchCase="'impurity'">
+        <chem-impurity></chem-impurity>
+      </ng-container>
+
+      <ng-container *ngSwitchCase="'europeApproval'">
+        <chem-europe-approval></chem-europe-approval>
+      </ng-container>
+
+      <ng-container *ngSwitchCase="'canadaApproval'">
+        <chem-canada></chem-canada>
+      </ng-container>
+
+      <ng-container *ngSwitchCase="'japanApproval'">
+        <chem-japan></chem-japan>
+      </ng-container>
+
+
+      <ng-container *ngSwitchCase="'koreaApproval'">
+        <chem-korea></chem-korea>
+      </ng-container>
+
+      
+
+
+      <ng-container *ngSwitchCase="'US'">
+        <chem-us-approval></chem-us-approval>
       </ng-container>
 
       <ng-container *ngSwitchDefault>

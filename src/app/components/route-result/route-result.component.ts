@@ -6,11 +6,17 @@ import { BasicRouteCardComponent } from '../results-common/basic-route-card/basi
 import { TechnicalRoutesCardComponent } from '../results-common/technical-routes-card/technical-routes-card.component';
 import { ChemicalDirectoryDataCardComponent } from '../results-common/chemical-directory-card/chemical-directory-data-card.component';
 import { DmfOrSuplierComponent } from '../results-common/dmf-or-suplier/dmf-or-suplier.component';
-
+import { ImpurityComponent } from '../results-common/impurity/impurity.component';
+import { KsmComponent } from '../results-common/ksm/ksm.component';
+import { UsApprovalComponent } from '../results-common/us-approval/us-approval.component';
+import { EuropeApprovalComponent } from '../results-common/europe-approval/europe-approval.component';
+import { CanadaComponent } from '../results-common/canada/canada.component';
+import { JapanComponent } from '../results-common/japan/japan.component';
+import { KoreaComponent } from '../results-common/korea/korea.component';
 @Component({
   selector: 'chem-route-results',
   standalone: true,
-  imports: [NgIf, RouteTabsComponent, BasicRouteCardComponent, TechnicalRoutesCardComponent,DmfOrSuplierComponent, ChemicalDirectoryDataCardComponent, NgSwitch, NgSwitchCase, NgSwitchDefault, JsonPipe],
+  imports: [NgIf, RouteTabsComponent, BasicRouteCardComponent, TechnicalRoutesCardComponent,DmfOrSuplierComponent,KsmComponent,ImpurityComponent,EuropeApprovalComponent,CanadaComponent,JapanComponent,KoreaComponent,UsApprovalComponent, ChemicalDirectoryDataCardComponent, NgSwitch, NgSwitchCase, NgSwitchDefault, JsonPipe],
   templateUrl: './route-result.component.html',
   styleUrl: './route-result.component.css'
 })
