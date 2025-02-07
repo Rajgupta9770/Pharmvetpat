@@ -15,10 +15,12 @@ import { JapanComponent } from '../results-common/japan/japan.component';
 import { KoreaComponent } from '../results-common/korea/korea.component';
 import { IndianComponent } from '../results-common/indian/indian.component';
 import { LitigationComponent } from '../results-common/litigation/litigation.component';
+import { ImpComponent } from '../results-common/imp/imp.component';
+import { UsComponent } from '../results-common/us/us.component';
 @Component({
   selector: 'chem-route-results',
   standalone: true,
-  imports: [NgIf, RouteTabsComponent, BasicRouteCardComponent, TechnicalRoutesCardComponent,DmfOrSuplierComponent,KsmComponent,ImpurityComponent,EuropeApprovalComponent,CanadaComponent,JapanComponent,KoreaComponent,IndianComponent,LitigationComponent,UsApprovalComponent, ChemicalDirectoryDataCardComponent, NgSwitch, NgSwitchCase, NgSwitchDefault, JsonPipe],
+  imports: [NgIf, RouteTabsComponent, BasicRouteCardComponent, TechnicalRoutesCardComponent,ImpComponent,DmfOrSuplierComponent,KsmComponent,UsComponent,ImpurityComponent,EuropeApprovalComponent,CanadaComponent,JapanComponent,KoreaComponent,IndianComponent,LitigationComponent,UsApprovalComponent, ChemicalDirectoryDataCardComponent, NgSwitch, NgSwitchCase, NgSwitchDefault, JsonPipe],
   templateUrl: './route-result.component.html',
   styleUrl: './route-result.component.css'
 })

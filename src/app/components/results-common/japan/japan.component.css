@@ -1,5 +1,5 @@
 :host {
-    background-color:#007bff30;
+    background-color:#C5E3FF;
   }
 
 
@@ -7,7 +7,7 @@
   {
     font-size: 35px;
     font-weight: bold;
-    color: blue;
+    color:#05519A;
   }
 
   .more     
@@ -30,7 +30,9 @@
     background-color: blue;
     color: white;
     height: 50px;
-    width: 150px;   
+    width: 150px;  
+    font-weight: bold;
+    font-size: 17px; 
   }
   h5{
     font-size: 15px;
@@ -70,4 +72,14 @@ hr {
 {
   height: 60px;
   width: 150px;
+}
+.hover\:cursor-pointer {
+  cursor: pointer;
+  font-size: 18px;
+  color: #007bff;
+  margin-left: 8px;
+}
+
+.hover\:cursor-pointer:hover {
+  color: #0056b3;
 }

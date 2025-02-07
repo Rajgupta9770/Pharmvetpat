@@ -51,6 +51,10 @@
         <chem-impurity></chem-impurity>
       </ng-container>
 
+      <ng-container *ngSwitchCase="'usApproval'">
+        <chem-us></chem-us>
+      </ng-container>
+
       <ng-container *ngSwitchCase="'europeApproval'">
         <chem-europe-approval></chem-europe-approval>
       </ng-container>
@@ -74,6 +78,12 @@
 
       <ng-container *ngSwitchCase="'litigation'">
         <chem-litigation></chem-litigation>
+      </ng-container>
+
+
+
+      <ng-container *ngSwitchCase="'impPatents'">
+        <chem-imp></chem-imp>
       </ng-container>
 
 

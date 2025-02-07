@@ -26,7 +26,9 @@
     background-color: blue;
     color: white;
     height: 50px;
-    width: 150px;   
+    width: 150px; 
+    font-weight: bold;
+    font-size: 17px;   
   }
 
   h5{

@@ -34,3 +34,14 @@ h5{
         width: 130px;
     }
    
+
+    .hover\:cursor-pointer {
+        cursor: pointer;
+        font-size: 18px;
+        color: #007bff;
+        margin-left: 8px;
+      }
+      
+      .hover\:cursor-pointer:hover {
+        color: #0056b3;
+      }

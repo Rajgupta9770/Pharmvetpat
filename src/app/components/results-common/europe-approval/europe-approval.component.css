@@ -32,6 +32,8 @@
     color: white;
     height: 50px;
     width: 150px;   
+    font-weight: bold;
+    font-size: 17px; 
   }
   h5{
     font-weight: bold;
@@ -119,4 +121,15 @@ a
   width: 300px;
   padding-top: 10px;
 
+}
+
+.hover\:cursor-pointer {
+  cursor: pointer;
+  font-size: 18px;
+  color: #007bff;
+  margin-left: 8px;
+}
+
+.hover\:cursor-pointer:hover {
+  color: #0056b3;
 }
